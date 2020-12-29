@@ -1,12 +1,32 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import { withAuthenticator, AmplifyTheme } from 'aws-amplify-react';
+import './App.css';
 
-class App extends React.Component {
-  state = {};
-
-  render() {
-    return <div>App</div>;
-  }
-}
-
-export default App;
+const App = () => {
+    return (
+        <>
+            <div>App</div>
+        </>
+    );
+};
+// to customize cognito interfaces (login, register, etc.)
+// we imported the default them above on te import
+const theme = {
+    ...AmplifyTheme,
+    //change button color (find by doing inspect when viewing modal)
+    button: {
+        ...AmplifyTheme.button,
+        backgroundColor: 'var(--amazonOrange)',
+    },
+    sectionHeader: {
+        ...AmplifyTheme.sectionHeader,
+        backgroundColor: 'var(--darkBlue)', //this is using the styles already loaded
+    },
+    // Navbar tweaks
+    navBar: {
+        ...AmplifyTheme.navBar,
+        backgroundColor: '#3333ff',
+        color: '#ffffff',
+    },
+};
+export default withAuthenticator(App, true, [], null, theme);
