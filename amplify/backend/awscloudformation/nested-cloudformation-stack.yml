@@ -135,7 +135,7 @@
             ]
           },
           "S3DeploymentBucket": "amplify-amplifyagora-dev-160541-deployment",
-          "S3DeploymentRootKey": "amplify-appsync-files/9ad31a367fa20543620cad8837db601858f9bb12",
+          "S3DeploymentRootKey": "amplify-appsync-files/06c526680a7f3c36eaf72d2d1add1e11f84bd975",
           "env": "dev"
         }
       }

@@ -18,11 +18,6 @@
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyagora-dev-160541-deployment/amplify-cfn-templates/auth/amplifyagora3675406c-cloudformation-template.yml",
-        "logicalId": "authamplifyagora3675406c"
-      },
-      "lastPushTimeStamp": "2020-12-27T22:59:13.841Z",
       "output": {
         "AppClientSecret": "1b7ecdfr28um5ltcnltpvvefeka7miqa94ij5kpq6ughb2toqcus",
         "UserPoolId": "us-east-1_qGHyQllXo",
@@ -32,7 +27,11 @@
         "IdentityPoolName": "amplifyagora3675406c_identitypool_3675406c__dev",
         "UserPoolName": "amplifyagora3675406c_userpool_3675406c"
       },
-      "lastPushDirHash": "3OV5soz+cYdG+45Z0oApYKf9j28="
+      "lastPushTimeStamp": "2020-12-29T12:26:57.550Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyagora-dev-160541-deployment/amplify-cfn-templates/auth/amplifyagora3675406c-cloudformation-template.yml",
+        "logicalId": "authamplifyagora3675406c"
+      }
     }
   },
   "api": {
@@ -52,12 +51,12 @@
         "GraphQLAPIIdOutput": "iqw5l6wdwvg35afopoeybioep4",
         "GraphQLAPIEndpointOutput": "https://xru6yhgdhjfifbtdm5eolcsjna.appsync-api.us-east-1.amazonaws.com/graphql"
       },
+      "lastPushTimeStamp": "2020-12-29T12:26:58.898Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyagora-dev-160541-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apiamplifyagora"
       },
-      "lastPushTimeStamp": "2020-12-27T22:59:13.841Z",
-      "lastPushDirHash": "QSahQ19q8Sn+PKcOtPEkcogBPsU="
+      "lastPushDirHash": "LSCTcR+kIW/8BDecMkNlY3UBLzQ="
     }
   }
 }

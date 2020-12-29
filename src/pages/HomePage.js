@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 class HomePage extends React.Component {
-  state = {};
+    state = {};
 
-  render() {
-    return <div>Home</div>;
-  }
+    render() {
+        return <div>Home</div>;
+    }
 }
 
 export default HomePage;
