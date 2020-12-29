@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "./AppHooks";
 import * as serviceWorker from "./serviceWorker";
 
 // Bring in default Element React theme
